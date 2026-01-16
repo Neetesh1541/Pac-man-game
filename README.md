@@ -1,4 +1,4 @@
-# 🟡 Pac-Man Game (Python + Pygame).. 
+# 🟡 Pac-Man Game (Python + Pygame)...
 
 A simple, fun, and beginner-friendly Pac-Man game built using **Python** and **Pygame**.  
 This project recreates the classic arcade-style gameplay with smooth movement, score tracking, and multiple ghosts — all inside a controlled maze environment.
