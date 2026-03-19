@@ -7,8 +7,8 @@ This project recreates the classic arcade-style gameplay with smooth movement, s
 
 ## ⭐ Features
 
-- 🎮 **Smooth Arrow Key Controls**  
-  Control Pac-Man with arrow keys for easy and responsive movement.
+- 🎮 **Dual Control Scheme**  
+  Control Pac-Man with **Arrow keys** or **WASD** for comfortable, responsive movement.
 
 - 👻 **10 Random Ghosts**  
   Each ghost has unique delay-based movement, making gameplay natural and unpredictable.
@@ -23,7 +23,10 @@ This project recreates the classic arcade-style gameplay with smooth movement, s
   Ghosts and player speed kept slow to ensure smooth gameplay for new players.
 
 - 🔄 **Restart Feature**  
-  After Game Over, press **R** to restart instantly.
+  After Game Over or You Win, press **R** to restart instantly.
+
+- 🏆 **Win Condition**  
+  Collect all pellets to trigger the "You Win!" screen.
 
 - 🧮 **Score Display**  
   Real-time score shown at bottom-left of the screen.
