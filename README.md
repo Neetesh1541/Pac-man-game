@@ -1,44 +1,72 @@
-# 🟡 Pac-Man Game (Python + Pygame)..
+# 🟡 Pac-Man Game (Python + Pygame)
 
-A simple, fun, and beginner-friendly Pac-Man game built using **Python** and **Pygame**.  
-This project recreates the classic arcade-style gameplay with smooth movement, score tracking, and multiple ghosts — all inside a controlled maze environment.
+A classic-inspired Pac-Man game built with Python and Pygame.  
+Control Pac-Man, collect pellets, avoid roaming ghosts, and try to beat your best score.
 
----
+## 🎮 Gameplay
 
-## ⭐ Features
+- Move Pac-Man using arrow keys.
+- Eat pellets to increase score.
+- Avoid all ghosts—touching one ends the game.
+- Press **R** after game over to restart instantly.
 
-- 🎮 **Smooth Arrow Key Controls**  
-  Control Pac-Man with arrow keys for easy and responsive movement.
+## ✨ Features
 
-- 👻 **10 Random Ghosts**  
-  Each ghost has unique delay-based movement, making gameplay natural and unpredictable.
+- Smooth keyboard movement
+- 10 ghosts with randomized speed timing and direction
+- Pellet collection and live score counter
+- Bounded play area with visible border
+- Game over screen with final score and restart option
 
-- 🍬 **Pellets System**  
-  Pac-Man can eat pellets placed across the maze to increase score.
+## 🛠 Tech Stack
 
-- 🧱 **Border-Locked Movement**  
-  Pac-Man cannot cross the maze boundary, ensuring a proper play area.
+- Python 3
+- Pygame
 
-- 🧠 **Beginner-Friendly Speed**  
-  Ghosts and player speed kept slow to ensure smooth gameplay for new players.
+## 📦 Installation
 
-- 🔄 **Restart Feature**  
-  After Game Over, press **R** to restart instantly.
-
-- 🧮 **Score Display**  
-  Real-time score shown at bottom-left of the screen.
-
----
-
-## 📌 Technologies Used
-
-- **Python 3**
-- **Pygame Library**
-
----
-
-## 📥 Installation
-
-1. Clone this repository:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pacman-game.git
+   git clone https://github.com/Neetesh1541/Pac-man-game.git
+   cd Pac-man-game
+   ```
+2. Install dependencies:
+   ```bash
+   pip install pygame
+   ```
+
+## ▶️ Run the Game
+
+```bash
+python Pac-man.py
+```
+
+## 🎯 Controls
+
+| Key | Action |
+|-----|--------|
+| ⬅️  | Move left |
+| ➡️  | Move right |
+| ⬆️  | Move up |
+| ⬇️  | Move down |
+| R   | Restart after game over |
+
+## 📁 Project Structure
+
+```text
+Pac-man-game/
+├── Pac-man.py
+├── README.md
+└── LICENSE
+```
+
+## 🚀 Future Improvements
+
+- Maze walls and pathfinding
+- Multiple levels and difficulty scaling
+- Power pellets and ghost vulnerability mode
+- Start menu and pause system
+
+## 📄 License
+
+This project is licensed under the terms of the [MIT License](LICENSE).
