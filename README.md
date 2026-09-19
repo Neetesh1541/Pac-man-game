@@ -1,4 +1,4 @@
-# 🟡 Pac-Man Game..
+# 🟡 Pac-Man Game...
 
 A classic-inspired arcade game built with **Python and Pygame**. Control Pac-Man, collect pellets, avoid ghosts, and chase a high score.
 
